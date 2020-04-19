@@ -7,3 +7,4 @@
 
 - [ ] Proofread chapters
 - [ ] Fix footnotes
+- [ ] Merge chapters 7.4, 7.7 and 7.8 into chapter 7
