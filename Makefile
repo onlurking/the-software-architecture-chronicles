@@ -18,6 +18,6 @@ epub: $(BUILD)/epub/$(BOOKNAME).epub
 
 $(BUILD)/epub/$(BOOKNAME).epub: $(TITLE) $(CHAPTERS)
 	mkdir -p $(BUILD)/epub
-	pandoc $(TOC) -f markdown+smart --epub-metadata=$(METADATA) --css=$(STYLE) --highlight-style pygments --epub-cover-image=$(COVER_IMAGE) -o $@ $^
+	pandoc $(TOC) -f markdown+smart --epub-metadata=$(METADATA) --css=$(STYLE) --highlight-style pygments --epub-cover-image=$(COVER_IMAGE) --lua-filter=links-to-html.lua -o $@ $^
 
 .PHONY: all book clean epub
