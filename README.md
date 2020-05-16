@@ -3,6 +3,11 @@
   <img src="images/cover.jpg" alt="drawing" width="250" />
 </div>
 
+## Download
+
+- [ePub](https://github.com/onlurking/the-software-architecture-chronicles/releases/download/0.1/the-software-architecture-chronicles.epub)
+- [mobi](https://github.com/onlurking/the-software-architecture-chronicles/releases/download/0.1/the-software-architecture-chronicles.mobi)
+
 ## Table of Contents
 
 1.  [The Software Architecture Chronicles](content/ch01.md)
